@@ -9,6 +9,6 @@ Other than the python imports, some basic functions used in _dailyReturn.py_ can
 
 ### Moving average based strategy
 This is mostly copied from quantstart.com.
-_movingAverage.py_ starts with a portfolio of 100,000 in Jan, 1, 1990 and runs till Jan 1, 2012. It buys and sells 100 shares of Apple inc. (AAPL) depending on whether the 100 day moving average crosses the 400 day moving average. 
+_movingAverage.py_ starts with a portfolio of 100,000 in Jan, 1, 1990 and runs till Jan 1, 2012. It buys and sells 100 shares of Apple inc. (AAPL) everytime the 100 day moving average crosses the 400 day moving average.
 
 The buy and sell signals are indicated in the magenta and black triangles respectively in the plots. The plots are otherwise self explanatory in nature.
